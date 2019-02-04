@@ -1,5 +1,6 @@
 ﻿html,body
 {
+    font-family: "arial";
     height: 100%;
     margin: 0;
     overflow: hidden;
@@ -25,17 +26,17 @@
 }
 .intestazione-titolo
 {
+    font-size: 1.6rem;
     position: relative;
-    font-size: 18px;
     line-height: 1;
     margin-left: 160px;
 }
 .intestazione-piede 
 {
-    font-size: 18px;
+    font-size: 1.6rem;
     line-height: 1;
     margin-left: 160px;
-    margin-top: 60px;
+    margin-top: 35px;
 }
 .intestazione-gironi
 {
@@ -46,12 +47,14 @@
 }
 .menu
 {
+    font-size: 1.0rem;
     margin-left:10px;
     text-decoration: none;
     color: black;
 }
 .menuOk
 {
+    font-size: 1.0rem;
     margin-left:10px;
     border-bottom: 3px solid #1A73E8;
     color: #1A73E8;
