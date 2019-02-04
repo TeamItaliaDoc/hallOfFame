@@ -44,7 +44,18 @@
     line-height: 1;
     margin-left: 10px;
 }
-/* TABELLA */
+.menu
+{
+    margin-left:10px;
+    text-decoration: none;
+    color: black;
+}
+.menuOk
+{
+    margin-left:10px;
+    border-bottom: 3px solid #1A73E8;
+    color: #1A73E8;
+}/* TABELLA */
 .tabella
 {
     margin-left: 10px;
