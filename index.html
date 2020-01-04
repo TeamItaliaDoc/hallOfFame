@@ -8,11 +8,18 @@
 <script type="text/javascript" src="js/jquery-2.0.3.js"> </script>
 
 
-<script>document.write('<link rel="stylesheet" href="css/TID.css?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script>
+<script>
+    document.write('<script type="text/javascript"  src="js/hallOfFame.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');
+    document.write('<link rel="stylesheet" href="css/TID.css?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');
+</script>
 <!--
-<script>document.write('<link rel="stylesheet" href="css/TID.css"\><\/script>');</script>
+<script>
+    document.write('<script type="text/javascript"  src="js/hallOfFame.js"\><\/script>');
+    document.write('<link rel="stylesheet" href="css/TID.css"\><\/script>');
+</script>
 -->
 
+    
 </head>
 
 <!-- rilancio la pagina con un parametro per farla caricare se cambiata -->
@@ -70,102 +77,20 @@
         </spam>
         <HR>
     
-<!--
-<! --                            SEPARATORE                                      -- >   
-<table align="left" width="950px" height="100px">
-    <tr> </tr>
 
-    <tr> </tr>
-<tr> <td><h1>Albo d'oro</h1></td> </tr>
-</table>
-<! --                            ALBO D'ORO                                      -- >   
-<div>
-    <table  id="albo" class="tabella">
-
-    <tr class="intestazione">
-        <td class="albo-col1">Anno</td> 
-        <td class="albo-col2">Torneo</td>
-        <td class="albo-col3">Note</td>
-        <td class="albo-col4">Stato</td>
-        <td class="albo-col5">Classifica</td>
-        <td class="albo-col6">Partecipanti</td>
-    </tr>
-    <tr class="riga">
-        <td class="albo-col1">2019</td> <td class="albo-col2">1WL 2019 3rdVOTEa</td>  
-        <td class="albo-col3">Vota la mossa </td><td class="albo-col4">In corso<div style="font-size: 10px">(01/07/2019)</div></td>
-        <td class="albo-col5"></td>   <td class="albo-col6"></td> </tr>
-    <tr class="riga">
-        <td class="albo-col1">2019</td> <td class="albo-col2">New Wave League - WAVE 2B</td>  
-        <td class="albo-col3"></td> <td class="albo-col4">In corso<div style="font-size: 10px">(28/02/2019)</div></td>
-        <td class="albo-col5"></td>   <td class="albo-col6"></td> </tr>
-    <tr class="riga">
-        <td class="albo-col1">2019</td> <td class="albo-col2">Professional Chess Association World</td>  
-        <td class="albo-col3"></td> <td class="albo-col4">In corso<div style="font-size: 10px">(08/04/2019)</div></td>
-        <td class="albo-col5">1</td>   <td class="albo-col6">22</td>     </tr>
-<tr class="riga">
-        <td class="albo-col1">2019</td> <td class="albo-col2">CLUB CHESS TOUR League S1 L3c</td>  
-        <td class="albo-col3"></td> <td class="albo-col4">In corso <div style="font-size: 10px">(26/02/2019)</div></td>
-        <td class="albo-col5"></td>   <td class="albo-col6">7</td>     </tr>
-    <tr class="riga">
-        <td class="albo-col1">2019</td> <td class="albo-col2">1WL Birthday BASH tournaments</a> </td> 
-        <td class="albo-col3">A fasce di rating</td> <td class="albo-col4">In corso <div style="font-size: 10px">(26/02/2019)</div></td>
-        <td class="albo-col5"></td>   <td class="albo-col6">6</td>     </tr>
-    <tr class="riga">
-        <td class="albo-col1">2018</td> <td class="albo-col2">KNOCKOUT TEAM MATCH LEAGUE</td> 
-        <td class="albo-col3">Eliminazione diretta</td> <td class="albo-col4">Qualificati semifinale <div style="font-size: 10px">(28/04/2019)</div></td>
-        <td class="albo-col5"></td>   <td class="albo-col6">16</td>     </tr>
-        <tr class="riga">
-            <td class="albo-col1">2018</td> <td class="albo-col2">World Council of Chess - League</td> 
-            <td class="albo-col3">A gironi eliminatori</td> <td class="albo-col4">Superato il primo girone di qualificazione<div style="font-size: 10px">(06/01/2019)</div></td>
-            <td class="albo-col5"></td>   <td class="albo-col6">48</td>     </tr>
-    <tr class="riga">
-                <td class="albo-col1">2018</td> <td class="albo-col2">CCT Pawn Structure 16s</td>  
-                <td class="albo-col3" style="font-size: 10px">2 VoteChess, un Team Match standard, un Team Match 960. 16 squadre divise in 4 gironi</td> <td class="albo-col4">In corso<div style="font-size: 10px">(06/01/2019)</div></td>
-                <td class="albo-col5"></td>   <td class="albo-col6">16</td>     </tr>
-
-<! --                           Terminati                                      -- >   
-<tr class="riga">
-    <td class="albo-col1">2019</td> <td class="albo-col2">TMCL960 2019 Division E</td> 
-    <td class="albo-col3">Scacchi 960</td> <td class="albo-col4">Concluso</td>
-    <td class="albo-col5">7</td>   <td class="albo-col6">19</td>     </tr>
-<tr class="riga">
-    <td class="albo-col1">2019</td> <td class="albo-col2">1WL 2019 U14-12</td>  
-    <td class="albo-col3">Under 1400 - Max 12 giocatori</td> <td class="albo-col4">Concluso</div></td>
-    <td class="albo-col5">5</td>   <td class="albo-col6">6</td> </tr>
-<tr class="riga">
-    <td class="albo-col1">2019</td> <td class="albo-col2">1WL 2019 OPEN25a</td>  
-    <td class="albo-col3">Max 25 giocatori</td> <td class="albo-col4">Concluso</div></td>
-    <td class="albo-col5">6</td>   <td class="albo-col6">8</td>     </tr>
-<tr class="riga">
-    <td class="albo-col1">2018</td> <td class="albo-col2">1WL 3th TOUR</td> 
-    <td class="albo-col3"></td> <td class="albo-col4">Concluso</td>
-    <td class="albo-col5"><img style="height: 64px;" src="img/terzo.png"></td>   <td class="albo-col6">8</td>     </tr>
-<tr class="riga">
-    <td class="albo-col1">2018</td> <td class="albo-col2">1WL U15-CUP</td>  
-    <td class="albo-col3">riservato a rating under 1500</td> <td class="albo-col4">Concluso <div style="font-size: 10px">(22/08/2019)</div></td>
-    <td class="albo-col5"><img style="height: 64px;" src="img/secondo.png"></td>   <td class="albo-col6">8</td>     </tr>
-<tr class="riga">
-                    <td class="albo-col1">2018</td> <td class="albo-col2">1WL 5th TOUR</td> 
-                    <td class="albo-col3"></td> <td class="albo-col4">Concluso <div style="font-size: 10px">(23/02/2019)</div></td>
-                    <td class="albo-col5"><img style="height: 64px;" src="img/primo.png"></td>   <td class="albo-col6">8</td>     </tr>
-<! --                            Fine tabella                                      -- >   
-</table>
-
-</div>
--->     
-
+<!--        https://api.chess.com/pub/player/  -->
 
 <!--                            SEPARATORE                                      -->   
 <table align="left" width="950px" height="100px">
     <tr> </tr>
 
     <tr> </tr>
-<tr> <td><h1>Medagliere</h1></td> </tr>
+<tr> <td><h1>Medagliere Assoluti</h1></td> </tr>
 </table>
 
 <!--                            MEDAGLIERE                                      -->   
 <div>
-    <table  id="medagliere" class="tabella">
+    <table  id="medagliereA" class="tabella">
         <tr class="intestazione">
             <td class="med-col1"></td> 
             <td class="med-Giocatori">Giocatore</td> 
@@ -173,165 +98,31 @@
             <td class="med-col2"><img style="height: 64px;"src="img/secondo.png"></td>
             <td class="med-col2"><img style="height: 64px;"src="img/terzo.png"></td>
         </tr>
-
-        <tr class="riga">   <td class="med-col1">#1</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/tulpicanistan" target="”_blank”"> Tulpicanistan</a>        </div>         </td>    </tr></tbody></table>           
-        </td>   <td class="med-col2">4</td> <td class="med-col2">0</td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#2</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/6517940.ac878b60.200x200o.bfb3d4766b6a.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/implacabile" target="”_blank”"> Implacabile</a>    </div>            </td>    </tr></tbody></table>
-        </td>   <td class="med-col2">2</td> <td class="med-col2">1</td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#3</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/a550" target="”_blank”"> A550</a>   </div>             </td>    </tr></tbody></table>                             
-        </td>   <td class="med-col2">2</td> <td class="med-col2">0</td>  <td class="med-col2">1</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#3</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/13607910.d76baf43.200x200o.b5a02315cf6e.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/marza_98" target="”_blank”"> marza_98</a>        </div>        </td>    </tr></tbody></table>        </td>
-        </td>   <td class="med-col2">2</td> <td class="med-col2">0</td>  <td class="med-col2">1</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#3</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/2180491.e9da589a.200x200o.8885e12cc04e.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/cavaliereyedi" target="”_blank”"> cavaliereyedi</a>        </div>         </td>    </tr></tbody></table>
-        </td>   <td class="med-col2">2</td> <td class="med-col2">0</td>  <td class="med-col2">1</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#6</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/29115262.4a9eeee4.200x200o.9195b473656e.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/arturu" target="”_blank”"> arturu</a>        </div>         </td>    </tr></tbody></table>                                   
-        </td>   <td class="med-col2">2</td> <td class="med-col2">0</td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#7</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/32632496.05cb8edc.200x200o.c704c5fb9b03.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/dag_stinner" target="”_blank”"> Dag_Stinner</a>   </div>            </td>    </tr></tbody></table>        
-        </td>  <td class="med-col2">1</td> <td class="med-col2">2</td>  <td class="med-col2">2</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#8</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/13080926.71ad03d2.200x200o.b63307f180eb.png">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/saurosol" target="”_blank”"> saurosol</a>   </div>            </td>    </tr></tbody></table>
-        </td>   <td class="med-col2">1</td> <td class="med-col2">2</td>  <td class="med-col2">1</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#9</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/23282264.107858a1.200x200o.40ca6107c8e6.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/sandokann" target="”_blank”"> Sandokann</a>        </div>         </td>    </tr></tbody></table>
-        </td>   <td class="med-col2">1</td> <td class="med-col2">1</td>0</td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#10</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/2795601.b8417618.200x200o.9d612f9660a4.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/ytoong" target="”_blank”"> ytoong</a>        </div>         </td>    </tr></tbody></table>
-        </td>   <td class="med-col2">1</td> <td class="med-col2">0</td>  <td class="med-col2">1</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#11</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/40784464.0ba3c509.200x200o.1ea05d7bd654.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/eluros55" target="”_blank”"> eluros55</a>        </div>        </td>    </tr></tbody></table>                </td>
-        </td>   <td class="med-col2">1</td> <td class="med-col2">0</td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#11</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/17463432.b5f09fe3.200x200o.43d29476d167.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/pieropare" target="”_blank”"> pieropare</a>        </div>        </td>    </tr></tbody></table>                                  
-        </td>   <td class="med-col2">1</td> <td class="med-col2">0</td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#11</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/6640397.c859d08e.200x200o.4774f53c0616.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/apalladi" target="”_blank”"> apalladi</a>        </div>         </td>    </tr></tbody></table>
-        </td>   <td class="med-col2">1</td> <td class="med-col2">0</td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#11</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/43042380.dce03fb7.200x200o.03b60d0f4723.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/napoli67" target="”_blank”"> Napoli67</a>        </div>         </td>    </tr></tbody></table>
-        </td>   <td class="med-col2">1</td> <td class="med-col2">0</td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#11</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/1404629.6c61a4d2.200x200o.0d8075eb6312.jpg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/carbon" target="”_blank”">Carbon</a>        </div>         </td>    </tr></tbody></table>           
-        </td>   <td class="med-col2">1</td> <td class="med-col2">0</td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#11</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/31946926.4058fcd5.200x200o.5e573bc67419.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/riccardocioli" target="”_blank”">riccardocioli</a>        </div>         </td>    </tr></tbody></table>           
-        </td>   <td class="med-col2">1</td> <td class="med-col2">0</td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#17</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/38913842.6cc6dd92.200x200o.919b2a7608c1.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/kmoreteam" target="”_blank”"> kmoreteam</a>        </div>        </td>    </tr></tbody></table>                </td>
-        </td>   <td class="med-col2">0</td> <td class="med-col2">2</td></td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#18</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/27079370.e61d29fa.200x200o.b28c4cf7e12b.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/sandro2116" target="”_blank”"> Sandro2116</a>        </div>         </td>    </tr></tbody></table>
-        </td>   <td class="med-col2">0</td> <td class="med-col2">1</td>  <td class="med-col2">2</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#19</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/38179334.5fe7c041.200x200o.bbc8861a1608.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/88arf" target="”_blank”"> 88arf</a>   </div>           </td>    </tr></tbody></table>                        </td>   
-        </td>   <td class="med-col2">0</td> <td class="med-col2">1</td>  <td class="med-col2">1</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#19</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/14590688.a61de2f7.200x200o.302bb365cbdf.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/dirkflasche" target="”_blank”"> DirkFlasche</a>        </div>         </td>    </tr></tbody></table>              
-            </td>
-            <td class="med-col2">0</td> <td class="med-col2">1</td>  <td class="med-col2">1</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#21</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/42740422.d893d9c0.200x200o.105dc88badfb.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/paulbuhl" target="”_blank”"> paulbuhl</a>   </div>             </td>    </tr></tbody></table>                    </td>   
-        </td>   <td class="med-col2">0</td> <td class="med-col2">1</td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#21</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/tuttod26" target="”_blank”"> tuttod26</a>        </div>         </td>    </tr></tbody></table>
-        </td>   <td class="med-col2">0</td> <td class="med-col2">1</td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#21</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/41379984.4ab37435.200x200o.9ff51ba4eb1e.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/rolmas54" target="”_blank”"> rolmas54</a>        </div>         </td>    </tr></tbody></table>
-        </td>   <td class="med-col2">0</td> <td class="med-col2">1</td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#21</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/14156828.fd16ace1.200x200o.b3324ecc7563.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/silvio_pao" target="”_blank”"> silvio_pao</a>        </div>         </td>    </tr></tbody></table>          
-        </td>   <td class="med-col2">0</td> <td class="med-col2">1</td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#21</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/55306848.cc2920e1.200x200o.a29e7b558767.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/enricof8" target="”_blank”"> enricof8</a>        </div>         </td>    </tr></tbody></table>
-        </td>   <td class="med-col2">0</td> <td class="med-col2">1</td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#21</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/20945430.230e1bed.200x200o.517f04520457.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/pantheon-67" target="”_blank”"> pantheon-67</a>   </div>           </td>    </tr></tbody></table>                        </td>   
-        </td>   <td class="med-col2">0</td> <td class="med-col2">1</td></td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#21</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/29016090.c72a1258.200x200o.b0bd48d49ed1.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/NAR14" target="”_blank”"> NAR14</a>   </div>           </td>    </tr></tbody></table>                        </td>   
-        </td>   <td class="med-col2">0</td> <td class="med-col2">1</td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#21</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/19134906.62d48fcb.200x200o.9a989b852d1d.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/cats-not-knights" target="”_blank”">cats-not-knights</a>   </div>            </td>    </tr></tbody></table>        
-        </td>   <td class="med-col2">0</td> <td class="med-col2">1</td></td>  <td class="med-col2">0</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#29</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/thejoker2000" target="”_blank”"> thejoker2000</a>        </div>        </td>    </tr></tbody></table>                                   
-        </td>   <td class="med-col2">0</td> <td class="med-col2">0</td>  <td class="med-col2">3</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#30</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/22872792.4e9c0762.200x200o.5f02a1aad362.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/ziopolvere" target="”_blank”"> Ziopolvere</a>        </div>         </td>    </tr></tbody></table>        
-        </td>   <td class="med-col2">0</td> <td class="med-col2">0</td>  <td class="med-col2">2</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#31</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/28139972.0e2bdb43.200x200o.fb6c6917732b.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/deffo2506" target="”_blank”"> deffo2506</a>   </div>            </td>    </tr></tbody></table>        </td>
-                </td>   <td class="med-col2">0</td> <td class="med-col2">0</td>  <td class="med-col2">1</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#31</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/24678374.cc1fca5e.200x200o.d4f342ef8906.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/MarcelloPar" target="”_blank”"> MarcelloPar</a>        </div>         </td>    </tr></tbody></table>
-        </td>   <td class="med-col2">0</td> <td class="med-col2">0</td>  <td class="med-col2">1</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#31</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/23009086.04e9fb8e.200x200o.65ba8e197266.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/linchetto" target="”_blank”"> linchetto</a>        </div>         </td>    </tr></tbody></table>
-        </td>   <td class="med-col2">0</td> <td class="med-col2">0</td>  <td class="med-col2">1</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#31</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/20355694.b21acb29.200x200o.53b499fde37a.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/giuseppececi" target="”_blank”"> giuseppececi</a>        </div>         </td>    </tr></tbody></table>                                   
-        </td>   <td class="med-col2">0</td> <td class="med-col2">0</td>  <td class="med-col2">1</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#31</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/46006126.f0358fe3.200x200o.825e6b2c8118.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/scacchifor_ever" target="”_blank”"> scacchifor_ever</a>        </div>         </td>    </tr></tbody></table>                                    </td>
-        </td>   <td class="med-col2">0</td> <td class="med-col2">0</td>  <td class="med-col2">1</td> 
-        </tr>   
-        <tr class="riga">   <td class="med-col1">#31</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/22732052.3928532a.200x200o.1853f2a69c04.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/giammi99" target="”_blank”"> Giammi99</a>        </div>        </td>    </tr></tbody></table>                </td>
-        </td>   <td class="med-col2">0</td> <td class="med-col2">0</td>  <td class="med-col2">1</td> 
-        <tr class="riga">   <td class="med-col1">#31</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/39983004.d1175baa.200x200o.617d9b7c03e6.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/fox7hem" target="”_blank”"> Fox7hem</a>        </div>         </td>    </tr></tbody></table>    </td>
-        </td>   <td class="med-col2">0</td> <td class="med-col2">0</td>  <td class="med-col2">1</td> 
-        </tr>    
-        <tr class="riga">   <td class="med-col1">#31</td>  <td class="med-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/5946361.050fd6c4.200x200o.6a715ae5d25c.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/zenzero314" target="”_blank”"> zenzero314</a>        </div>        </td>    </tr></tbody></table>       
-        </td>   <td class="med-col2">0</td> <td class="med-col2">0</td>  <td class="med-col2">1</td> 
-        </tr>    
-
-        <!--                            Fine tabella                                      -->   
-</table>
-
+    </table>
 </div>
 
+
+
+<!--                            SEPARATORE                                      -->   
+<table align="left" width="950px" height="100px">
+    <tr> </tr>
+
+    <tr> </tr>
+<tr> <td><h1>Medagliere di Categoria</h1></td> </tr>
+</table>
+
+<!--                            MEDAGLIERE                                      -->   
+<div>
+    <table  id="medagliereC" class="tabella">
+        <tr class="intestazione">
+            <td class="med-col1"></td> 
+            <td class="med-Giocatori">Giocatore</td> 
+            <td class="med-col2"><img style="height: 64px;" src="img/primo.png"></td>
+            <td class="med-col2"><img style="height: 64px;"src="img/secondo.png"></td>
+            <td class="med-col2"><img style="height: 64px;"src="img/terzo.png"></td>
+        </tr>
+    </table>
+</div>
 
 <!--                            SEPARATORE                                      -->   
 <table align="left" width="950px" height="100px">
@@ -351,374 +142,7 @@
         <td class="hall-int-Giocatori"><img style="height: 64px;"src="img/secondo.png"></td>
         <td class="hall-int-Giocatori"><img style="height: 64px;"src="img/terzo.png"></td>
     </tr>
-
-<!--        https://api.chess.com/pub/player/  -->
-
-<!--                            RAPID CHRISTMAS 2019                                      -->   
-<tr class="riga">
-    <td class="hall-col1">2019</td> 
-    <td class="hall-col2"><a href="https://www.chess.com/it/news/view/rapid-christmas-2019-classifica-finale-e-premiati" target="_blank">Rapid Christmas 2019</a></td> 
-    <td class="hall-col3">Open</td> 
-    <td class="hall-col-Giocatori">
-        <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/2180491.e9da589a.200x200o.8885e12cc04e.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/cavaliereyedi" target="”_blank”"> cavaliereyedi</a>        </div>         </td>    </tr></tbody></table>
-    </td>
-    <td class="hall-col-Giocatori">
-        <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/38913842.6cc6dd92.200x200o.919b2a7608c1.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/kmoreteam" target="”_blank”"> kmoreteam</a>        </div>        </td>    </tr></tbody></table>                </td>
-    </td>
-    <td class="hall-col-Giocatori">
-        <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/14590688.a61de2f7.200x200o.302bb365cbdf.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/dirkflasche" target="”_blank”"> DirkFlasche</a>        </div>         </td>    </tr></tbody></table>              
-    </td>   
-        
-    </tr>    
-
-    <tr class="riga">
-        <td class="hall-col1">2019</td> 
-        <td class="hall-col2"><a href="https://www.chess.com/it/news/view/rapid-christmas-2019-classifica-finale-e-premiati" target="_blank">Rapid Christmas 2019</a></td> 
-        <td class="hall-col3">U1500</td> 
-        <td class="hall-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/2180491.e9da589a.200x200o.8885e12cc04e.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/cavaliereyedi" target="”_blank”"> cavaliereyedi</a>        </div>         </td>    </tr></tbody></table>
-        </td>
-        <td class="hall-col-Giocatori">   </td>
-        <td class="hall-col-Giocatori">   </td>
-            
-        </tr>    
-    <tr class="riga">
-        <td class="hall-col1">2019</td> 
-        <td class="hall-col2"><a href="https://www.chess.com/it/news/view/rapid-christmas-2019-classifica-finale-e-premiati" target="_blank">Rapid Christmas 2019</a></td> 
-        <td class="hall-col3">U1300</td> 
-        <td class="hall-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/2795601.b8417618.200x200o.9d612f9660a4.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/ytoong" target="”_blank”"> ytoong</a>        </div>         </td>    </tr></tbody></table>
-        </td>
-        <td class="hall-col-Giocatori">   </td>
-        <td class="hall-col-Giocatori">   </td>
-           
-        </tr>    
-<!--                            Campionato assoluto 2019                                      -->   
-<tr class="riga">
-<td class="hall-col1">2019</td> 
-<td class="hall-col2"><a href="https://www.chess.com/club/campionato-sociale-assoluto-2019-ed-1" target="_blank">Campionato assoluto 2019</a></td> 
-<td class="hall-col3">Open</td> 
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/31946926.4058fcd5.200x200o.5e573bc67419.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/riccardocioli" target="”_blank”">riccardocioli</a>        </div>         </td>    </tr></tbody></table>           
-</td>
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/23282264.107858a1.200x200o.40ca6107c8e6.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/sandokann" target="”_blank”"> Sandokann</a>        </div>         </td>    </tr></tbody></table>
-</td>
-<!--<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/5946361.050fd6c4.200x200o.6a715ae5d25c.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/zenzero314" target="”_blank”"> zenzero314</a>        </div>        </td>    </tr></tbody></table>        </td>
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/13607910.d76baf43.200x200o.b5a02315cf6e.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/marza_98" target="”_blank”"> marza_98</a>        </div>        </td>    </tr></tbody></table>        </td>
-</td> -->  
-<td class="hall-col-Giocatori">
-        <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/5946361.050fd6c4.200x200o.6a715ae5d25c.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/zenzero314" target="”_blank”"> zenzero314</a>        </div>        </td>    </tr></tbody></table>       
-        <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/13607910.d76baf43.200x200o.b5a02315cf6e.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/marza_98" target="”_blank”"> marza_98</a>        </div>        </td>    </tr></tbody></table>       
-    </td>   
-    
-</tr>    
-<!--                            semilampo estivo                                      -->   
-<tr class="riga">
-<td class="hall-col1">2019</td> 
-<td class="hall-col2"><a href="https://www.chess.com/tournament/live/semilampo--estivo-1088590" target="_blank">Semilampo estivo</a></td> 
-<td class="hall-col3">Open</td> 
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/1404629.6c61a4d2.200x200o.0d8075eb6312.jpg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/carbon" target="”_blank”">Carbon</a>        </div>         </td>    </tr></tbody></table>           
-</td>
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/19134906.62d48fcb.200x200o.9a989b852d1d.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/cats-not-knights" target="”_blank”">cats-not-knights</a>   </div>            </td>    </tr></tbody></table>        
-</td>
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/22872792.4e9c0762.200x200o.5f02a1aad362.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/ziopolvere" target="”_blank”"> Ziopolvere</a>        </div>         </td>    </tr></tbody></table>        
-</td>   
-    
-</tr>    
-<!--                            CSP 2 - Inverno 2019"                                      -->   
-<tr class="riga">
-<td class="hall-col1">2019</td> 
-<td class="hall-col2"><a href="https://teamitaliadoc.github.io/campionatoSociale2019I/index.html" target="_blank">CSP 2 - Inverno 2018-2019</a></td> 
-<td class="hall-col3">Open</td> 
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/tulpicanistan" target="”_blank”"> Tulpicanistan</a>        </div>         </td>    </tr></tbody></table>           
-</td>
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/32632496.05cb8edc.200x200o.c704c5fb9b03.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/dag_stinner" target="”_blank”"> Dag_Stinner</a>   </div>            </td>    </tr></tbody></table>        
-</td>
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/39983004.d1175baa.200x200o.617d9b7c03e6.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/fox7hem" target="”_blank”"> Fox7hem</a>        </div>         </td>    </tr></tbody></table>    
-</td>   
-    
-</tr>    
-<tr class="riga">
-    <td class="hall-col1">2019</td> 
-    <td class="hall-col2"><a href="https://teamitaliadoc.github.io/campionatoSociale2019I/index.html" target="_blank">CSP 2 - Inverno 2018-2019</a></td> 
-    <td class="hall-col3">U1700</td> 
-    <td class="hall-col-Giocatori">
-        <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/6517940.ac878b60.200x200o.bfb3d4766b6a.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/implacabile" target="”_blank”"> Implacabile</a>    </div>            </td>    </tr></tbody></table>
-    </td>
-    <td class="hall-col-Giocatori">
-        <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/20945430.230e1bed.200x200o.517f04520457.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/pantheon-67" target="”_blank”"> pantheon-67</a>   </div>           </td>    </tr></tbody></table>                        </td>   
-    </td>
-    <td class="hall-col-Giocatori">
-        <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/2795601.b8417618.200x200o.9d612f9660a4.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/ytoong" target="”_blank”"> ytoong</a>        </div>         </td>    </tr></tbody></table>
-    </td>   
-        
-    </tr>    
-    <tr class="riga">
-        <td class="hall-col1">2019</td> 
-        <td class="hall-col2"><a href="https://teamitaliadoc.github.io/campionatoSociale2019I/index.html" target="_blank">CSP 2 - Inverno 2018-2019</a></td> 
-        <td class="hall-col3">U1500</td> 
-        <td class="hall-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/tulpicanistan" target="”_blank”"> Tulpicanistan</a>        </div>         </td>    </tr></tbody></table>           
-        </td>
-        <td class="hall-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/38913842.6cc6dd92.200x200o.919b2a7608c1.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/kmoreteam" target="”_blank”"> kmoreteam</a>        </div>        </td>    </tr></tbody></table>                </td>
-        </td>
-        <td class="hall-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/2180491.e9da589a.200x200o.8885e12cc04e.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/cavaliereyedi" target="”_blank”"> cavaliereyedi</a>        </div>         </td>    </tr></tbody></table>
-        </td>   
-            
-        </tr>    
-        <tr class="riga">
-            <td class="hall-col1">2019</td> 
-            <td class="hall-col2"><a href="https://teamitaliadoc.github.io/campionatoSociale2019I/index.html" target="_blank">CSP 2 - Inverno 2018-2019</a></td> 
-            <td class="hall-col3">U1300</td> 
-            <td class="hall-col-Giocatori">
-                <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/a550" target="”_blank”"> A550</a>   </div>             </td>    </tr></tbody></table>                             
-            </td>
-            <td class="hall-col-Giocatori">
-                <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/29016090.c72a1258.200x200o.b0bd48d49ed1.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/NAR14" target="”_blank”"> NAR14</a>   </div>           </td>    </tr></tbody></table>                        </td>   
-            </td>
-            <td class="hall-col-Giocatori">
-                <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/thejoker2000" target="”_blank”"> thejoker2000</a>        </div>        </td>    </tr></tbody></table>                                </tr>    
-            </td>   
-                
-            </tr>    
-    <!--                            Torneo di carnevale                                      -->   
-<tr class="riga">
-<td class="hall-col1">2019</td> 
-<td class="hall-col2"><a href="https://www.chess.com/it/clubs/forum/view/torneo-di-carnevale" target="_blank">Torneo di Carnevale - Fast play</a></td> 
-<td class="hall-col3">Open</td> 
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/23282264.107858a1.200x200o.40ca6107c8e6.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/sandokann" target="”_blank”"> Sandokann</a>        </div>         </td>    </tr></tbody></table>
-</td>
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/55306848.cc2920e1.200x200o.a29e7b558767.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/enricof8" target="”_blank”"> enricof8</a>        </div>         </td>    </tr></tbody></table>
-</td>
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/22732052.3928532a.200x200o.1853f2a69c04.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/giammi99" target="”_blank”"> Giammi99</a>        </div>        </td>    </tr></tbody></table>                </td>
-</td>   
-    
-</tr>    
-<tr class="riga">
-    <td class="hall-col1">2019</td> 
-    <td class="hall-col2"><a href="https://www.chess.com/it/clubs/forum/view/torneo-di-carnevale" target="_blank">Torneo di Carnevale - Fast play</a></td> 
-    <td class="hall-col3">U1600</td> 
-    <td class="hall-col-Giocatori">
-        <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/43042380.dce03fb7.200x200o.03b60d0f4723.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/napoli67" target="”_blank”"> Napoli67</a>        </div>         </td>    </tr></tbody></table>
-    </td>
-    <td class="hall-col-Giocatori">
-        <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/38179334.5fe7c041.200x200o.bbc8861a1608.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/88arf" target="”_blank”"> 88arf</a>   </div>           </td>    </tr></tbody></table>                        </td>   
-    </td>
-    <td class="hall-col-Giocatori">
-        <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/27079370.e61d29fa.200x200o.b28c4cf7e12b.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/sandro2116" target="”_blank”"> Sandro2116</a>        </div>         </td>    </tr></tbody></table>
-    </td>   
-        
-    </tr>    
-<!--                            Migliori giocatore                                      -->   
-<tr class="riga">
-        <td class="hall-col1">2018</td> 
-        <td class="hall-col2"><a href="https://www.chess.com/club/leaderboard/team-italia-doc" target="_blank">Migliori giocatori</a></td> 
-        <td class="hall-col3">Open</td> 
-        <td class="hall-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/32632496.05cb8edc.200x200o.c704c5fb9b03.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/dag_stinner" target="”_blank”"> Dag_Stinner</a>   </div>            </td>    </tr></tbody></table>        
-        </td>
-        <td class="hall-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/14590688.a61de2f7.200x200o.302bb365cbdf.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/dirkflasche" target="”_blank”"> DirkFlasche</a>        </div>         </td>    </tr></tbody></table>              
-        </td>
-        <td class="hall-col-Giocatori">
-                <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/28139972.0e2bdb43.200x200o.fb6c6917732b.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/deffo2506" target="”_blank”"> deffo2506</a>   </div>            </td>    </tr></tbody></table>        </td>
-            </td>   
-            
-        </tr>    
-<!--                            CSP 1                                      -->   
-    <tr class="riga">
-        <td class="hall-col1">2018</td> 
-        <td class="hall-col2"><a href="https://teamitaliadoc.github.io/campionatoSociale2019I/index.html" target="_blank">CSP 1 - Estate 2018</a></td> 
-        <td class="hall-col3">Open</td> 
-        <td class="hall-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/13080926.71ad03d2.200x200o.b63307f180eb.png">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/saurosol" target="”_blank”"> saurosol</a>   </div>            </td>    </tr></tbody></table>
-    </td>
-        <td class="hall-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/6517940.ac878b60.200x200o.bfb3d4766b6a.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/implacabile" target="”_blank”"> Implacabile</a>    </div>            </td>    </tr></tbody></table>
-        </td>   
-        <td class="hall-col-Giocatori">
-                <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/32632496.05cb8edc.200x200o.c704c5fb9b03.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/dag_stinner" target="”_blank”"> Dag_Stinner</a>   </div>            </td>    </tr></tbody></table>        </td>
-            </td>   
-            
-        </tr>    
-        <tr class="riga">
-                <td class="hall-col1">2018</td> 
-                <td class="hall-col2"><a href="https://teamitaliadoc.github.io/campionatoSociale2019I/index.html" target="_blank">CSP 1 - Estate 2018</a></td> 
-                <td class="hall-col3">U1600</td> 
-                <td class="hall-col-Giocatori">
-                        <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/6517940.ac878b60.200x200o.bfb3d4766b6a.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/implacabile" target="”_blank”"> Implacabile</a>   </div>             </td>    </tr></tbody></table>
-                    </td>
-                <td class="hall-col-Giocatori">
-                        <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/42740422.d893d9c0.200x200o.105dc88badfb.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/paulbuhl" target="”_blank”"> paulbuhl</a>   </div>             </td>    </tr></tbody></table>                    </td>   
-                <td class="hall-col-Giocatori">
-                        <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/38179334.5fe7c041.200x200o.bbc8861a1608.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/88arf" target="”_blank”"> 88arf</a>   </div>           </td>    </tr></tbody></table>                        </td>   
-                    
-                </tr>    
-                <tr class="riga">
-                        <td class="hall-col1">2018</td> 
-                        <td class="hall-col2"><a href="https://teamitaliadoc.github.io/campionatoSociale2019I/index.html" target="_blank">CSP 1 - Estate 2018</a></td> 
-                        <td class="hall-col3">U1300</td> 
-                        <td class="hall-col-Giocatori">
-                                <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/a550" target="”_blank”"> A550</a>   </div>             </td>    </tr></tbody></table>                             
-                               </td>
-                        <td class="hall-col-Giocatori">
-                                <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/41379984.4ab37435.200x200o.9ff51ba4eb1e.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/rolmas54" target="”_blank”"> rolmas54</a>        </div>         </td>    </tr></tbody></table>
-                            </td>
-                            <td class="hall-col-Giocatori">
-                                <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/thejoker2000" target="”_blank”"> thejoker2000</a>        </div>        </td>    </tr></tbody></table>                                </tr>    
-<!--                            BLITZ                                      -->   
-<tr class="riga">
-<td class="hall-col1">2018</td> 
-<td class="hall-col2"><a href="https://www.chess.com/it/clubs/forum/view/campionato-sociale-blitz" target="_blank">Blitz</a></td> 
-<td class="hall-col3">Open</td> 
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/13607910.d76baf43.200x200o.b5a02315cf6e.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/marza_98" target="”_blank”"> marza_98</a>        </div>        </td>    </tr></tbody></table>        </td>
-</td>
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/13080926.71ad03d2.200x200o.b63307f180eb.png">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/saurosol" target="”_blank”"> saurosol</a>        </div>         </td>    </tr></tbody></table>        </td>   
-</td>   
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/32632496.05cb8edc.200x200o.c704c5fb9b03.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/dag_stinner" target="”_blank”"> Dag_Stinner</a>        </div>        </td>    </tr></tbody></table>        </td>
-</tr>    
-<tr class="riga">
-        <td class="hall-col1">2018</td> 
-        <td class="hall-col2"><a href="https://www.chess.com/it/clubs/forum/view/campionato-sociale-blitz" target="_blank">Blitz</a></td>  
-        <td class="hall-col3">U1500</td> 
-        <td class="hall-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/40784464.0ba3c509.200x200o.1ea05d7bd654.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/eluros55" target="”_blank”"> eluros55</a>        </div>        </td>    </tr></tbody></table>                </td>
-        </td>   
-        <td class="hall-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/tuttod26" target="”_blank”"> tuttod26</a>        </div>         </td>    </tr></tbody></table>
-        </td>   
-        <td class="hall-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/24678374.cc1fca5e.200x200o.d4f342ef8906.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/MarcelloPar" target="”_blank”"> MarcelloPar</a>        </div>         </td>    </tr></tbody></table>
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/23009086.04e9fb8e.200x200o.65ba8e197266.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/linchetto" target="”_blank”"> linchetto</a>        </div>         </td>    </tr></tbody></table>
-        </td>   
-        <tr class="riga">
-            <td class="hall-col1">2018</td> 
-            <td class="hall-col2"><a href="https://www.chess.com/it/clubs/forum/view/campionato-sociale-blitz" target="_blank">Blitz</a></td>  
-            <td class="hall-col3">U1300</td> 
-            <td class="hall-col-Giocatori">
-                <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/29115262.4a9eeee4.200x200o.9195b473656e.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/arturu" target="”_blank”"> arturu</a>        </div>         </td>    </tr></tbody></table>                                   
-            </td>   
-            <td class="hall-col-Giocatori">
-                <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/27079370.e61d29fa.200x200o.b28c4cf7e12b.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/sandro2116" target="”_blank”"> Sandro2116</a>        </div>         </td>    </tr></tbody></table>
-            </td>   
-            <td class="hall-col-Giocatori">
-                <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/thejoker2000"  target="”_blank”"> thejoker2000</a>        </div>       </td>    </tr></tbody></table>
-                <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/a550" target="”_blank”"> A550</a>   </div>             </td>    </tr></tbody></table>                             
-            </td>   
-        </tr>    
- 
-<!--                            Semilampo                                      -->   
-<tr class="riga">
-<td class="hall-col1">2018</td> 
-<td class="hall-col2"><a href="https://www.chess.com/it/clubs/forum/view/i-magnifici-100-campionato-sociale-semilampo" target="_blank">Semilampo</a></td> 
-<td class="hall-col3">Open</td> 
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/13607910.d76baf43.200x200o.b5a02315cf6e.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/marza_98" target="”_blank”"> marza_98</a>        </div>        </td>    </tr></tbody></table>       
-</td>
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/32632496.05cb8edc.200x200o.c704c5fb9b03.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/dag_stinner" target="”_blank”"> Dag_Stinner</a>   </div>            </td>    </tr></tbody></table>        
-</td>   
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/13080926.71ad03d2.200x200o.b63307f180eb.png">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/saurosol" target="”_blank”"> saurosol</a>        </div>         </td>    </tr></tbody></table>          
-</td>   
-    
-</tr>    
-<tr class="riga">
-        <td class="hall-col1">2018</td> 
-        <td class="hall-col2"><a href="https://www.chess.com/it/clubs/forum/view/i-magnifici-100-campionato-sociale-semilampo" target="_blank">Semilampo</a></td> 
-        <td class="hall-col3">U1500</td> 
-        <td class="hall-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/tulpicanistan" target="”_blank”"> Tulpicanistan</a>        </div>         </td>    </tr></tbody></table>           
-        </td>   
-        <td class="hall-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/14156828.fd16ace1.200x200o.b3324ecc7563.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/silvio_pao" target="”_blank”"> silvio_pao</a>        </div>         </td>    </tr></tbody></table>          
-        </td>   
-        <td class="hall-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/22872792.4e9c0762.200x200o.5f02a1aad362.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/ziopolvere" target="”_blank”"> Ziopolvere</a>        </div>         </td>    </tr></tbody></table>        
-        </td>   
-    </tr>    
-
-        <tr class="riga">
-            <td class="hall-col1">2018</td> 
-            <td class="hall-col2"><a href="https://www.chess.com/it/clubs/forum/view/i-magnifici-100-campionato-sociale-semilampo" target="_blank">Semilampo</a></td> 
-            <td class="hall-col3">U1300</td> 
-            <td class="hall-col-Giocatori">
-                <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/17463432.b5f09fe3.200x200o.43d29476d167.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/pieropare" target="”_blank”"> pieropare (#1)</a>        </div>        </td>    </tr></tbody></table>                                  
-            </td>   
-            <td class="hall-col-Giocatori">
-                <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/29115262.4a9eeee4.200x200o.9195b473656e.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/arturu" target="”_blank”"> arturu (#1)</a>        </div>        </td>    </tr></tbody></table>                                  
-            <td class="hall-col-Giocatori">
-                <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/20355694.b21acb29.200x200o.53b499fde37a.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/giuseppececi" target="”_blank”"> giuseppececi</a>        </div>         </td>    </tr></tbody></table>                                   
-            </td>   
-
-                
-<!--                            FAST PLAY                                      -->   
-<tr class="riga">
-<td class="hall-col1">2018</td> 
-<td class="hall-col2"><a href="https://www.chess.com/it/clubs/forum/view/torneo-interno-domenica-sera-si-gioca-fast-play" target="_blank">Fast play</a></td> 
-<td class="hall-col3">Open</td> 
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/6640397.c859d08e.200x200o.4774f53c0616.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/apalladi" target="”_blank”"> apalladi</a>        </div>         </td>    </tr></tbody></table>
-</td>
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/13080926.71ad03d2.200x200o.b63307f180eb.png">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/saurosol" target="”_blank”"> saurosol</a>   </div>            </td>    </tr></tbody></table>
-</td>   
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/46006126.f0358fe3.200x200o.825e6b2c8118.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/scacchifor_ever" target="”_blank”"> scacchifor_ever</a>        </div>         </td>    </tr></tbody></table>                                    </td>
-</td>   
-    
-</tr>    
-<tr class="riga">
-        <td class="hall-col1">2018</td> 
-        <td class="hall-col2"><a href="https://www.chess.com/it/clubs/forum/view/torneo-interno-domenica-sera-si-gioca-fast-play" target="_blank">Fast play</a></td> 
-        <td class="hall-col3">U1600</td> 
-        <td class="hall-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/tulpicanistan" target="”_blank”"> Tulpicanistan</a>        </div>         </td>    </tr></tbody></table>                </td>   
-        </td>   
-        <td class="hall-col-Giocatori">
-            <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/38913842.6cc6dd92.200x200o.919b2a7608c1.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/kmoreteam" target="”_blank”"> kmoreteam</a>        </div>        </td>    </tr></tbody></table>                </td>
-        </td>   
-
-            <td class="hall-col-Giocatori">
-                <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/27079370.e61d29fa.200x200o.b28c4cf7e12b.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/sandro2116" target="”_blank”"> Sandro2116</a>        </div>         </td>    </tr></tbody></table>
-            
-        </tr>    
-    
-<!--                            Intermediate DOC                                      -->   
-<!--
-<tr class="riga">
-<td class="hall-col1">2018</td> 
-<td class="hall-col2"><a href="https://www.chess.com/it/clubs/forum/view/tonei-estivi-intermediate-doc" target="_blank">Intermediate DOC</a></td> 
-<td class="hall-col3">Open</td> 
-<td class="hall-col-Giocatori">
-    <table><tbody><tr>        <td>        <img class="classifica-avatar" src="https://images.chesscomfiles.com/uploads/v1/user/39983004.d1175baa.200x200o.617d9b7c03e6.jpeg">    </td>    <td width="7px"></td>    <td><div>            <a class="username" href="https://www.chess.com/member/fox7hem" target="”_blank”"> Fox7hem</a>        </div>         </td>    </tr></tbody></table>    
-</td>   
-<td class="hall-col-Giocatori">
-</td>   
-<td class="hall-col-Giocatori">
-   </td>   
-</tr>
--->                
-
-<!--                            Fine tabella                                      -->   
 </table>
-
 </div>
 
 <!--                            IMMAGINE  -  LOGO   -->
@@ -738,17 +162,9 @@
 
 
     <script type="text/javascript"> 
-      //  CAMPIONATO.inizializzaGironi();
+      elabora();
     </script>
 </main>
 
 </html>
 
-<!-- avatar
-https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg
-
-api giocatore
-
-https://api.chess.com/pub/player/
-
-        -->
