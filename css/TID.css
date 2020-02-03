@@ -161,6 +161,18 @@
     width:100px;
 }   
 
+/* TABELLA Premi */
+.premi-col1 {
+    width:50px;
+}   
+.premi-col2 {
+    width:200px;
+    text-align:left;
+}   
+.premi-Giocatori {
+    width:90px;
+}   
+
 /*  Powered */
 .powered{
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
