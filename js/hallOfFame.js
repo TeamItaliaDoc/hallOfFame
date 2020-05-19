@@ -2,11 +2,12 @@
 var giocatori = [];
 
 var tornei = [];
-tornei[199]={"anno":"2019", "name":"Paladino 2019", "url":"https://www.chess.com/club/leaderboard/team-italia-doc", "categoria":"Open", "tipo":"A", "primi":["DirkFlasche"], "secondi":["Dag_Stinner"], "terzi":["88arf"]};
-tornei[200]={"anno":"2019", "name":"Rapid Christmas 2019", "url":"https://www.chess.com/it/news/view/rapid-christmas-2019-classifica-finale-e-premiati", "categoria":"Open", "tipo":"A", "primi":["cavaliereyedi"], "secondi":["kmoreteam"], "terzi":["DirkFlasche"]};
-tornei[201]={"anno":"2019", "name":"Rapid Christmas 2019", "url":"https://www.chess.com/it/news/view/rapid-christmas-2019-classifica-finale-e-premiati", "categoria":"U1500", "tipo":"C", "primi":["cavaliereyedi"], "secondi":['kmoreteam'], "terzi":['Tulpicanistan']};
-tornei[202]={"anno":"2019", "name":"Rapid Christmas 2019", "url":"https://www.chess.com/it/news/view/rapid-christmas-2019-classifica-finale-e-premiati", "categoria":"U1300", "tipo":"C", "primi":["ytoong"], "secondi":['TheMoonlightKnight'], "terzi":['babilonia']};
-tornei[203]={"anno":"2019", "name":"Campionato assoluto 2019", "url":"https://www.chess.com/club/campionato-sociale-assoluto-2019-ed-1", "categoria":"Open", "tipo":"A", "primi":["riccardocioli"], "secondi":["Sandokann"], "terzi":["zenzero314","marza_98"]};
+tornei[198]={"anno":"2020", "name":"Carosello", "url":"https://www.chess.com/it/news/view/il-carosello", "categoria":"U1500", "tipo":"C", "primi":["capfracassa"], "secondi":["VittoriaGiuseppe"], "terzi":["Tulpicanistan"]};
+tornei[199]={"anno":"2019", "name":"Paladino", "url":"https://www.chess.com/club/leaderboard/team-italia-doc", "categoria":"Open", "tipo":"A", "primi":["DirkFlasche"], "secondi":["Dag_Stinner"], "terzi":["88arf"]};
+tornei[200]={"anno":"2019", "name":"Rapid Christmas", "url":"https://www.chess.com/it/news/view/rapid-christmas-2019-classifica-finale-e-premiati", "categoria":"Open", "tipo":"A", "primi":["cavaliereyedi"], "secondi":["kmoreteam"], "terzi":["DirkFlasche"]};
+tornei[201]={"anno":"2019", "name":"Rapid Christmas", "url":"https://www.chess.com/it/news/view/rapid-christmas-2019-classifica-finale-e-premiati", "categoria":"U1500", "tipo":"C", "primi":["cavaliereyedi"], "secondi":['kmoreteam'], "terzi":['Tulpicanistan']};
+tornei[202]={"anno":"2019", "name":"Rapid Christmas", "url":"https://www.chess.com/it/news/view/rapid-christmas-2019-classifica-finale-e-premiati", "categoria":"U1300", "tipo":"C", "primi":["ytoong"], "secondi":['TheMoonlightKnight'], "terzi":['babilonia']};
+tornei[203]={"anno":"2019", "name":"Campionato assoluto", "url":"https://www.chess.com/club/campionato-sociale-assoluto-2019-ed-1", "categoria":"Open", "tipo":"A", "primi":["riccardocioli"], "secondi":["Sandokann"], "terzi":["zenzero314","marza_98"]};
 tornei[204]={"anno":"2019", "name":"Semilampo estivo", "url":"https://www.chess.com/tournament/live/semilampo--estivo-1088590", "categoria":"Open", "tipo":"A", "primi":["Carbon"], "secondi":["cats-not-knights"], "terzi":["Ziopolvere"]};
 tornei[205]={"anno":"2019", "name":"CSP 2 - Inverno 2018-2019", "url":"https://teamitaliadoc.github.io/campionatoSociale2019I/index.html", "categoria":"Open", "tipo":"A", "primi":["Tulpicanistan"], "secondi":["Dag_Stinner"], "terzi":["Fox7hem"]};
 tornei[206]={"anno":"2019", "name":"CSP 2 - Inverno 2018-2019", "url":"https://teamitaliadoc.github.io/campionatoSociale2019I/index.html", "categoria":"U1700", "tipo":"C", "primi":["Implacabile"], "secondi":["pantheon-67"], "terzi":["ytoong"]};
@@ -96,6 +97,11 @@ function getAvatarUrl(url)
         }
         giocatori[dataAvatar.username].url = dataAvatar.url;
         giocatori[dataAvatar.username].displayName = dataAvatar.url.substr(29, dataAvatar.url.length-29);
+
+        //Se è bannato lo considero già stampato
+        if (dataAvatar.status == 'closed:fair_play_violations') {
+            giocatori[dataAvatar.username].posizione = 999;
+        }
 
         //Se non ho caricato tuti gli avatar esengo ancora la funzione
         for (var username in giocatori) {
