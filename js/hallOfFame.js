@@ -2,8 +2,9 @@
 var giocatori = [];
 
 var tornei = [];
-//tornei[195]={"anno":"2020", "name":"Campionato sociale a squadre", "url":"https://www.chess.com/clubs/forum/view/campionato-sociale-a-squadre-2019-css-squadre-e-calendario", "categoria":"Squadra", "tipo":"A", "primi":["paolobarolo","andrea71ra","saurosol","reflex56","leffelover"], "secondi":["sandokann","dairola","elmarba","nick_940"], "terzi":["capfracassa","sashadan","eluros55","sundancek","arturu"]};
-//tornei[196]={"anno":"2020", "name":"Campionato sociale a squadre", "url":"https://www.chess.com/clubs/forum/view/campionato-sociale-a-squadre-2019-css-squadre-e-calendario", "categoria":"Migliori giocatori", "tipo":"A", "primi":["elmarba"], "secondi":["reflex56"], "terzi":["cats-not-knights"]};
+tornei[194]={"anno":"2020", "name":"Blitzkrieg", "url":"", "categoria":"Open", "tipo":"A", "primi":["enithith"], "secondi":["savi-xa"], "terzi":["rescorpio"]};
+tornei[195]={"anno":"2020", "name":"Campionato sociale a squadre", "url":"https://www.chess.com/clubs/forum/view/campionato-sociale-a-squadre-2019-css-squadre-e-calendario", "categoria":"Squadra", "tipo":"A", "primi":["paolobarolo","andrea71ra","saurosol","reflex56","leffelover"], "secondi":["sandokann","dairola","elmarba","nick_940"], "terzi":["capfracassa","sashadan","eluros55","sundancek","arturu"]};
+tornei[196]={"anno":"2020", "name":"Campionato sociale a squadre", "url":"https://www.chess.com/clubs/forum/view/campionato-sociale-a-squadre-2019-css-squadre-e-calendario", "categoria":"Migliori giocatori", "tipo":"A", "primi":["elmarba"], "secondi":["reflex56"], "terzi":["cats-not-knights"]};
 tornei[197]={"anno":"2020", "name":"Torneo dei veterani", "url":"https://www.chess.com/clubs/forum/view/torneo-dei-veterani-quarti-di-finale?page=1", "categoria":"Open", "tipo":"A", "primi":["riccardocioli"], "secondi":["federicomalavasi"], "terzi":["valeriobc"]};
 tornei[198]={"anno":"2020", "name":"Carosello", "url":"https://www.chess.com/it/news/view/il-carosello", "categoria":"U1500", "tipo":"C", "primi":["capfracassa"], "secondi":["VittoriaGiuseppe"], "terzi":["Tulpicanistan"]};
 tornei[199]={"anno":"2019", "name":"Paladino", "url":"https://www.chess.com/club/leaderboard/team-italia-doc", "categoria":"Open", "tipo":"A", "primi":["DirkFlasche"], "secondi":["Dag_Stinner"], "terzi":["88arf"]};
