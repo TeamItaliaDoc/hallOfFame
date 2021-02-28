@@ -18,16 +18,16 @@ tornei[204]={"anno":"2019", "name":"Semilampo estivo", "url":"https://www.chess.
 tornei[205]={"anno":"2019", "name":"CSP 2 - Inverno 2018-2019", "url":"https://teamitaliadoc.github.io/campionatoSociale2019I/index.html", "categoria":"Open", "tipo":"A", "primi":["Tulpicanistan"], "secondi":["Dag_Stinner"], "terzi":["Fox7hem"]};
 tornei[206]={"anno":"2019", "name":"CSP 2 - Inverno 2018-2019", "url":"https://teamitaliadoc.github.io/campionatoSociale2019I/index.html", "categoria":"U1700", "tipo":"C", "primi":["Implacabile"], "secondi":["pantheon-67"], "terzi":["ytoong"]};
 tornei[207]={"anno":"2019", "name":"CSP 2 - Inverno 2018-2019", "url":"https://teamitaliadoc.github.io/campionatoSociale2019I/index.html", "categoria":"U1500", "tipo":"C", "primi":["Tulpicanistan"], "secondi":["kmoreteam"], "terzi":["cavaliereyedi"]};
-tornei[208]={"anno":"2019", "name":"CSP 2 - Inverno 2018-2019", "url":"https://teamitaliadoc.github.io/campionatoSociale2019I/index.html", "categoria":"U1300", "tipo":"C", "primi":["A550"], "secondi":["NAR14"], "terzi":["thejoker2000"]};
+tornei[208]={"anno":"2019", "name":"CSP 2 - Inverno 2018-2019", "url":"https://teamitaliadoc.github.io/campionatoSociale2019I/index.html", "categoria":"U1300", "tipo":"C", "primi":["KcA550"], "secondi":["NAR14"], "terzi":["thejoker2000"]};
 tornei[209]={"anno":"2019", "name":">Torneo di Carnevale - Fast pla", "url":"https://www.chess.com/it/clubs/forum/view/torneo-di-carnevale", "categoria":"Open", "tipo":"A", "primi":["Sandokann"], "secondi":[], "terzi":["Giammi99"]};
 tornei[210]={"anno":"2019", "name":">Torneo di Carnevale - Fast pla", "url":"https://www.chess.com/it/clubs/forum/view/torneo-di-carnevale", "categoria":"U1600", "tipo":"C", "primi":["Napoli67"], "secondi":["88arf"], "terzi":["Sandro2116"]};
 tornei[211]={"anno":"2018", "name":"Migliore giocatore incontri giornalieri", "url":"https://www.chess.com/club/leaderboard/team-italia-doc", "categoria":"Open", "tipo":"A", "primi":["Dag_Stinner"], "secondi":["DirkFlasche"], "terzi":["deffo2506"]};
 tornei[212]={"anno":"2018", "name":"CSP 1 - Estate 2018", "url":"https://teamitaliadoc.github.io/campionatoSociale2018/index.html", "categoria":"Open", "tipo":"A", "primi":["saurosol"], "secondi":["Implacabile"], "terzi":["Dag_Stinner"]};
 tornei[213]={"anno":"2018", "name":"CSP 1 - Estate 2018", "url":"https://teamitaliadoc.github.io/campionatoSociale2018/index.html", "categoria":"U1600", "tipo":"C", "primi":["Implacabile"], "secondi":["paulbuhl"], "terzi":["88arf"]};
-tornei[214]={"anno":"2018", "name":"CSP 1 - Estate 2018", "url":"https://teamitaliadoc.github.io/campionatoSociale2018/index.html", "categoria":"U1300", "tipo":"C", "primi":["A550"], "secondi":["rolmas54"], "terzi":["thejoker2000"]};
+tornei[214]={"anno":"2018", "name":"CSP 1 - Estate 2018", "url":"https://teamitaliadoc.github.io/campionatoSociale2018/index.html", "categoria":"U1300", "tipo":"C", "primi":["KcA550"], "secondi":["rolmas54"], "terzi":["thejoker2000"]};
 tornei[215]={"anno":"2018", "name":"Blitz", "url":"https://www.chess.com/it/clubs/forum/view/campionato-sociale-blitz", "categoria":"Open", "tipo":"A", "primi":["marza_98"], "secondi":["saurosol"], "terzi":["Dag_Stinner"]};
 tornei[216]={"anno":"2018", "name":"Blitz", "url":"https://www.chess.com/it/clubs/forum/view/campionato-sociale-blitz", "categoria":"U1500", "tipo":"C", "primi":["eluros55"], "secondi":["tuttod26"], "terzi":["MarcelloPar","linchetto"]};
-tornei[217]={"anno":"2018", "name":"Blitz", "url":"https://www.chess.com/it/clubs/forum/view/campionato-sociale-blitz", "categoria":"U1300", "tipo":"C", "primi":["arturu"], "secondi":["Sandro2116"], "terzi":["thejoker2000","A550"]};
+tornei[217]={"anno":"2018", "name":"Blitz", "url":"https://www.chess.com/it/clubs/forum/view/campionato-sociale-blitz", "categoria":"U1300", "tipo":"C", "primi":["arturu"], "secondi":["Sandro2116"], "terzi":["thejoker2000","KcA550"]};
 tornei[218]={"anno":"2018", "name":"Semilampo", "url":"https://www.chess.com/it/clubs/forum/view/i-magnifici-100-campionato-sociale-semilampo", "categoria":"Open", "tipo":"A", "primi":["marza_98"], "secondi":["Dag_Stinner"], "terzi":["saurosol"]};
 tornei[219]={"anno":"2018", "name":"Semilampo", "url":"https://www.chess.com/it/clubs/forum/view/i-magnifici-100-campionato-sociale-semilampo", "categoria":"U1500", "tipo":"C", "primi":["Tulpicanistan"], "secondi":["silvio_pao"], "terzi":["Ziopolvere"]};
 tornei[220]={"anno":"2018", "name":"Semilampo", "url":"https://www.chess.com/it/clubs/forum/view/i-magnifici-100-campionato-sociale-semilampo", "categoria":"U1300", "tipo":"C", "primi":["pieropare","arturu"], "secondi":[], "terzi":["giuseppececi"]};
@@ -88,7 +88,13 @@ function elabora() {
 function getAvatar() {
     //Cerco avatar
     for (var username in giocatori) {
-        getAvatarUrl('https://api.chess.com/pub/player/' + username);
+        /*if (username == 'a550')
+        {
+            giocatori[username].avatar = "https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg";
+           continue;
+        }
+        */
+          getAvatarUrl('https://api.chess.com/pub/player/' + username);
     }
 }     
 
