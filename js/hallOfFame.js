@@ -2,6 +2,7 @@
 var giocatori = [];
 
 var tornei = [];
+tornei[191]={"anno":"2021", "name":"Dentro o fuori", "url":"https://www.chess.com/news/view/dentro-o-fuori", "categoria":"Open", "tipo":"A", "primi":["cherokee751"], "secondi":["dida70"], "terzi":["leobelo","maehard"]};
 tornei[192]={"anno":"2020", "name":"Migliore giocatore incontri giornalieri", "url":"https://www.chess.com/club/leaderboard/team-italia-doc", "categoria":"Open", "tipo":"A", "primi":["dag_stinner"], "secondi":["dirkflasche"], "terzi":["88arf"]};
 tornei[193]={"anno":"2020", "name":"Migliore giocatore incontri dal vivo", "url":"https://www.chess.com/club/leaderboard/team-italia-doc/live-matches", "categoria":"Open", "tipo":"A", "primi":["dag_stinner"], "secondi":["cherokee751"], "terzi":["il_king"]};
 tornei[194]={"anno":"2020", "name":"Blitzkrieg", "url":"", "categoria":"Open", "tipo":"A", "primi":["enithith"], "secondi":["savi-xa"], "terzi":["rescorpio"]};
