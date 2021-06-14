@@ -2,6 +2,7 @@
 var giocatori = [];
 
 var tornei = [];
+tornei[187]={"anno":"2021", "name":"Calvario", "url":"https://www.chess.com/it/news/view/il-calvario", "categoria":"Open", "tipo":"A", "primi":["paolobarolo"], "secondi":["tesctassa","ytoong"], "terzi":[]};
 tornei[188]={"anno":"2021", "name":"Triangoli", "url":"http://localhost/triangoli", "categoria":"Open", "tipo":"A", "primi":["gfiorito"], "secondi":["plasol"], "terzi":["babilonia"]};
 tornei[189]={"anno":"2021", "name":"Campionato Sociale Blitz", "url":"https://www.chess.com/news/view/finali-campionato-sociale-rapid-blitz", "categoria":"Open", "tipo":"A", "primi":["Ndr619"], "secondi":["TimTheEnchanter"], "terzi":[]};
 tornei[190]={"anno":"2021", "name":"Campionato Sociale Rapid", "url":"https://www.chess.com/news/view/finali-campionato-sociale-rapid-blitz", "categoria":"Open", "tipo":"A", "primi":["Carbon"], "secondi":["TimTheEnchanter"], "terzi":[]};
