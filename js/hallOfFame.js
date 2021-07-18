@@ -2,6 +2,9 @@
 var giocatori = [];
 
 var tornei = [];
+tornei[184]={"anno":"2021", "name":"Campionato di categoria - Serie A", "url":"https://www.chess.com/it/news/view/campionato-sociale-di-categoria-2020", "categoria":"Open", "tipo":"A", "primi":["yoggsaron99"], "secondi":["rapace"], "terzi":["pumpf"]};
+tornei[185]={"anno":"2021", "name":"Campionato di categoria - Serie B", "url":"https://www.chess.com/it/news/view/campionato-sociale-di-categoria-2020", "categoria":"Open", "tipo":"C", "primi":["schiappone"], "secondi":["pieropare"], "terzi":["il_king"]};
+tornei[186]={"anno":"2021", "name":"Campionato di categoria - Serie C", "url":"https://www.chess.com/it/news/view/campionato-sociale-di-categoria-2020", "categoria":"Open", "tipo":"C", "primi":["ytoong"], "secondi":["kmoreteam"], "terzi":["linchetto","thejoker2000"]};
 tornei[187]={"anno":"2021", "name":"Calvario", "url":"https://www.chess.com/it/news/view/il-calvario", "categoria":"Open", "tipo":"A", "primi":["paolobarolo"], "secondi":["tesctassa","ytoong"], "terzi":[]};
 tornei[188]={"anno":"2021", "name":"Triangoli", "url":"http://localhost/triangoli", "categoria":"Open", "tipo":"A", "primi":["gfiorito"], "secondi":["plasol"], "terzi":["babilonia"]};
 tornei[189]={"anno":"2021", "name":"Campionato Sociale Blitz", "url":"https://www.chess.com/news/view/finali-campionato-sociale-rapid-blitz", "categoria":"Open", "tipo":"A", "primi":["Ndr619"], "secondi":["TimTheEnchanter"], "terzi":[]};
