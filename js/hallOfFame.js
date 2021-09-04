@@ -2,6 +2,7 @@
 var giocatori = [];
 
 var tornei = [];
+tornei[181]={"anno":"2021", "name":"Palestra", "url":"https://www.chess.com/tournament/palestra-doc/players", "categoria":"U1300", "tipo":"C", "primi":["emisup"], "secondi":["cionfolinet"], "terzi":["babeuf89"]};
 tornei[182]={"anno":"2021", "name":"Battaglia finale", "url":"https://teamitaliadoc.github.io/battagliaFinale", "categoria":"Open", "tipo":"A", "primi":["michaelgallo"], "secondi":["kmoreteam"], "terzi":["capfracassa"]};
 tornei[183]={"anno":"2021", "name":"TOP GUN", "url":"https://www.chess.com/tournament/top-gun-premio-qualita-2020/players", "categoria":"O1700", "tipo":"A", "primi":["rapace"], "secondi":["carbon"], "terzi":["88arf"]};
 tornei[184]={"anno":"2021", "name":"Campionato di categoria - Serie A", "url":"https://www.chess.com/it/news/view/campionato-sociale-di-categoria-2020", "categoria":"Open", "tipo":"A", "primi":["yoggsaron99"], "secondi":["rapace"], "terzi":["pumpf"]};
