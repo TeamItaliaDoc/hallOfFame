@@ -2,6 +2,8 @@
 var giocatori = [];
 
 var tornei = [];
+tornei[179]={"anno":"2021", "name":"Campionato sociale a squadre", "url":"https://www.chess.com/it/news/view/campionato-sociale-a-squadre-2020-21", "categoria":"Squadra", "tipo":"A", "primi":["paolobarolo","andrea71ra","cherokee751","reflex56","leffelover","clafa","el-pinto","giosibo"], "secondi":["capfracassa","sashadan","alfie-1","chibiz","arturu","pieropare","schiappone","sundancek"], "terzi":["88arf","azphoenix","barigello","cavaliereyedi","enithith","fessura92","ghirlanda","italianman1","michaelgallo","tempestaperfetta87"]};
+tornei[180]={"anno":"2021", "name":"Campionato sociale a squadre", "url":"https://www.chess.com/it/news/view/campionato-sociale-a-squadre-2020-21", "categoria":"Migliori giocatori", "tipo":"A", "primi":["sashadan"], "secondi":["reflex56"], "terzi":["capfracassa"]};
 tornei[181]={"anno":"2021", "name":"Palestra", "url":"https://www.chess.com/tournament/palestra-doc/players", "categoria":"U1300", "tipo":"C", "primi":["emisup"], "secondi":["cionfolinet"], "terzi":["babeuf89"]};
 tornei[182]={"anno":"2021", "name":"Battaglia finale", "url":"https://teamitaliadoc.github.io/battagliaFinale", "categoria":"Open", "tipo":"A", "primi":["michaelgallo"], "secondi":["kmoreteam"], "terzi":["capfracassa"]};
 tornei[183]={"anno":"2021", "name":"TOP GUN", "url":"https://www.chess.com/tournament/top-gun-premio-qualita-2020/players", "categoria":"O1700", "tipo":"A", "primi":["rapace"], "secondi":["carbon"], "terzi":["88arf"]};
