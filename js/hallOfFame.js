@@ -2,6 +2,8 @@
 var giocatori = [];
 
 var tornei = [];
+tornei[177]={"anno":"2021", "name":"Migliore giocatore incontri giornalieri", "url":"", "categoria":"Open", "tipo":"A", "primi":["Dag_Stinner"], "secondi":["DirkFlasche"], "terzi":["88arf"]};
+tornei[178]={"anno":"2021", "name":"Migliore giocatore incontri dal vivo", "url":"", "categoria":"Open", "tipo":"A", "primi":["dag_stinner"], "secondi":["m_lasker"], "terzi":["cavaliereyedi"]};
 tornei[179]={"anno":"2021", "name":"Campionato sociale a squadre", "url":"https://www.chess.com/it/news/view/campionato-sociale-a-squadre-2020-21", "categoria":"Squadra", "tipo":"A", "primi":["paolobarolo","andrea71ra","cherokee751","reflex56","leffelover","clafa","el-pinto","giosibo"], "secondi":["capfracassa","sashadan","alfie-1","chibiz","arturu","pieropare","schiappone","sundancek"], "terzi":["88arf","azphoenix","barigello","cavaliereyedi","enithith","fessura92","ghirlanda","italianman1","michaelgallo","tempestaperfetta87"]};
 tornei[180]={"anno":"2021", "name":"Campionato sociale a squadre", "url":"https://www.chess.com/it/news/view/campionato-sociale-a-squadre-2020-21", "categoria":"Migliori giocatori", "tipo":"A", "primi":["sashadan"], "secondi":["reflex56"], "terzi":["capfracassa"]};
 tornei[181]={"anno":"2021", "name":"Palestra", "url":"https://www.chess.com/tournament/palestra-doc/players", "categoria":"U1300", "tipo":"C", "primi":["emisup"], "secondi":["cionfolinet"], "terzi":["babeuf89"]};
