@@ -2,6 +2,7 @@
 var giocatori = [];
 
 var tornei = [];
+tornei[176]={"anno":"2022", "name":"Memorial Giovanni Negrini", "url":"https://www.chess.com/tournament/memorial-giovanni-negrini", "categoria":"Open", "tipo":"A", "primi":["cherokee751", "tesctassa", "moputzu"], "secondi":["maehard"], "terzi":["gfiorito85"]};
 tornei[177]={"anno":"2021", "name":"Migliore giocatore incontri giornalieri", "url":"", "categoria":"Open", "tipo":"A", "primi":["Dag_Stinner"], "secondi":["DirkFlasche"], "terzi":["88arf"]};
 tornei[178]={"anno":"2021", "name":"Migliore giocatore incontri dal vivo", "url":"", "categoria":"Open", "tipo":"A", "primi":["dag_stinner"], "secondi":["m_lasker"], "terzi":["cavaliereyedi"]};
 tornei[179]={"anno":"2021", "name":"Campionato sociale a squadre", "url":"https://www.chess.com/it/news/view/campionato-sociale-a-squadre-2020-21", "categoria":"Squadra", "tipo":"A", "primi":["paolobarolo","andrea71ra","cherokee751","reflex56","leffelover","clafa","el-pinto","giosibo"], "secondi":["capfracassa","sashadan","alfie-1","chibiz","arturu","pieropare","schiappone","sundancek"], "terzi":["88arf","azphoenix","barigello","cavaliereyedi","enithith","fessura92","ghirlanda","italianman1","michaelgallo","tempestaperfetta87"]};
@@ -13,7 +14,7 @@ tornei[184]={"anno":"2021", "name":"Campionato di categoria - Serie A", "url":"h
 tornei[185]={"anno":"2021", "name":"Campionato di categoria - Serie B", "url":"https://www.chess.com/it/news/view/campionato-sociale-di-categoria-2020", "categoria":"Open", "tipo":"C", "primi":["schiappone"], "secondi":["pieropare"], "terzi":["il_king"]};
 tornei[186]={"anno":"2021", "name":"Campionato di categoria - Serie C", "url":"https://www.chess.com/it/news/view/campionato-sociale-di-categoria-2020", "categoria":"Open", "tipo":"C", "primi":["ytoong"], "secondi":["kmoreteam"], "terzi":["linchetto","thejoker2000"]};
 tornei[187]={"anno":"2021", "name":"Calvario", "url":"https://www.chess.com/it/news/view/il-calvario", "categoria":"Open", "tipo":"A", "primi":["paolobarolo"], "secondi":["tesctassa","ytoong"], "terzi":[]};
-tornei[188]={"anno":"2021", "name":"Triangoli", "url":"http://localhost/triangoli", "categoria":"Open", "tipo":"A", "primi":["gfiorito"], "secondi":["plasol"], "terzi":["babilonia"]};
+tornei[188]={"anno":"2021", "name":"Triangoli", "url":"http://localhost/triangoli", "categoria":"Open", "tipo":"A", "primi":["gfiorito85"], "secondi":["plasol"], "terzi":["babilonia"]};
 tornei[189]={"anno":"2021", "name":"Campionato Sociale Blitz", "url":"https://www.chess.com/news/view/finali-campionato-sociale-rapid-blitz", "categoria":"Open", "tipo":"A", "primi":["Ndr619"], "secondi":["TimTheEnchanter"], "terzi":[]};
 tornei[190]={"anno":"2021", "name":"Campionato Sociale Rapid", "url":"https://www.chess.com/news/view/finali-campionato-sociale-rapid-blitz", "categoria":"Open", "tipo":"A", "primi":["Carbon"], "secondi":["TimTheEnchanter"], "terzi":[]};
 tornei[191]={"anno":"2021", "name":"Dentro o fuori", "url":"https://www.chess.com/news/view/dentro-o-fuori", "categoria":"Open", "tipo":"A", "primi":["cherokee751"], "secondi":["dida70"], "terzi":["leobelo","maehard"]};
