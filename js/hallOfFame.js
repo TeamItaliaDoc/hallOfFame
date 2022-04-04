@@ -2,6 +2,7 @@
 var giocatori = [];
 
 var tornei = [];
+tornei[175]={"anno":"2022", "name":"1° Trofeo di Primavera", "url":"https://www.chess.com/it/announcements/view/1deg-trofeo-di-primavera", "categoria":"Open", "tipo":"A", "primi":["maehard"], "secondi":["ionutsilviu"], "terzi":["stefanomondi"]};
 tornei[176]={"anno":"2022", "name":"Memorial Giovanni Negrini", "url":"https://www.chess.com/tournament/memorial-giovanni-negrini", "categoria":"Open", "tipo":"A", "primi":["cherokee751", "tesctassa", "moputzu"], "secondi":["maehard"], "terzi":["gfiorito85"]};
 tornei[177]={"anno":"2021", "name":"Migliore giocatore incontri giornalieri", "url":"", "categoria":"Open", "tipo":"A", "primi":["Dag_Stinner"], "secondi":["DirkFlasche"], "terzi":["88arf"]};
 tornei[178]={"anno":"2021", "name":"Migliore giocatore incontri dal vivo", "url":"", "categoria":"Open", "tipo":"A", "primi":["dag_stinner"], "secondi":["m_lasker"], "terzi":["cavaliereyedi"]};
