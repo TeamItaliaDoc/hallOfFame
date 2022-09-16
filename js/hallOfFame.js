@@ -2,6 +2,8 @@
 var giocatori = [];
 
 var tornei = [];
+tornei[173]={"anno":"2022", "name":"Campionato sociale a squadre", "url":"https://www.chess.com/it/news/view/campionato-sociale-a-squadre-2021-22", "categoria":"Squadra", "tipo":"A", "primi":["cherokee751","giosibo","leffelover","paolobarolo","reflex56","timtheenchanter97","andrea71ra","clafa","el-pinto","ender_vii","ionutsilviu"], "secondi":["fcostanza","briga69","roundrob1n","spaghetti_carbonara","davideger","acolapi","tarlato","southitaly","rothmoni","frankieI","revruckus","vittoriagiuseppe"], "terzi":["dirkflasche","juanD89","maehard","giorgio_mi","carnea7","gfiorito85","tommasofiore1978","franciomax","tulpicanistan"]};
+tornei[174]={"anno":"2022", "name":"Campionato sociale a squadre", "url":"https://www.chess.com/it/news/view/campionato-sociale-a-squadre-2021-22", "categoria":"Migliori giocatori", "tipo":"A", "primi":["fcostanza"], "secondi":["Briga69"], "terzi":["RoundRob1n"]};
 tornei[175]={"anno":"2022", "name":"1° Trofeo di Primavera", "url":"https://www.chess.com/it/announcements/view/1deg-trofeo-di-primavera", "categoria":"Open", "tipo":"A", "primi":["maehard"], "secondi":["ionutsilviu"], "terzi":["stefanomondi"]};
 tornei[176]={"anno":"2022", "name":"Memorial Giovanni Negrini", "url":"https://www.chess.com/tournament/memorial-giovanni-negrini", "categoria":"Open", "tipo":"A", "primi":["cherokee751", "tesctassa", "moputzu"], "secondi":["maehard"], "terzi":["gfiorito85"]};
 tornei[177]={"anno":"2021", "name":"Migliore giocatore incontri giornalieri", "url":"", "categoria":"Open", "tipo":"A", "primi":["Dag_Stinner"], "secondi":["DirkFlasche"], "terzi":["88arf"]};
@@ -22,7 +24,7 @@ tornei[191]={"anno":"2021", "name":"Dentro o fuori", "url":"https://www.chess.co
 tornei[192]={"anno":"2020", "name":"Migliore giocatore incontri giornalieri", "url":"https://www.chess.com/club/leaderboard/team-italia-doc", "categoria":"Open", "tipo":"A", "primi":["dag_stinner"], "secondi":["dirkflasche"], "terzi":["88arf"]};
 tornei[193]={"anno":"2020", "name":"Migliore giocatore incontri dal vivo", "url":"https://www.chess.com/club/leaderboard/team-italia-doc/live-matches", "categoria":"Open", "tipo":"A", "primi":["dag_stinner"], "secondi":["cherokee751"], "terzi":["il_king"]};
 tornei[194]={"anno":"2020", "name":"Blitzkrieg", "url":"", "categoria":"Open", "tipo":"A", "primi":["enithith"], "secondi":["savi-xa"], "terzi":["rescorpio"]};
-tornei[195]={"anno":"2020", "name":"Campionato sociale a squadre", "url":"https://www.chess.com/clubs/forum/view/campionato-sociale-a-squadre-2019-css-squadre-e-calendario", "categoria":"Squadra", "tipo":"A", "primi":["paolobarolo","andrea71ra","saurosol","reflex56","leffelover"], "secondi":["sandokann","dairola","elmarba","nick_940"], "terzi":["capfracassa","sashadan","eluros55","sundancek","arturu"]};
+tornei[195]={"anno":"2020", "name":"Campionato sociale a squadre", "url":"https://www.chess.com/clubs/forum/view/campionato-sociale-a-squadre-2019-css-squadre-e-calendario", "categoria":"Squadra", "tipo":"A", "primi":["paolobarolo","andrea71ra","saurosol","reflex56","leffelover"], "secondi":["sandokann","RoundRob1n","elmarba","nick_940"], "terzi":["capfracassa","sashadan","eluros55","sundancek","arturu"]};
 tornei[196]={"anno":"2020", "name":"Campionato sociale a squadre", "url":"https://www.chess.com/clubs/forum/view/campionato-sociale-a-squadre-2019-css-squadre-e-calendario", "categoria":"Migliori giocatori", "tipo":"A", "primi":["elmarba"], "secondi":["reflex56"], "terzi":["cats-not-knights"]};
 tornei[197]={"anno":"2020", "name":"Torneo dei veterani", "url":"https://www.chess.com/clubs/forum/view/torneo-dei-veterani-quarti-di-finale?page=1", "categoria":"Open", "tipo":"A", "primi":["riccardocioli"], "secondi":["federicomalavasi"], "terzi":["valeriobc"]};
 tornei[198]={"anno":"2020", "name":"Carosello", "url":"https://www.chess.com/it/news/view/il-carosello", "categoria":"U1500", "tipo":"C", "primi":["capfracassa"], "secondi":["VittoriaGiuseppe"], "terzi":["Tulpicanistan"]};
@@ -36,8 +38,8 @@ tornei[205]={"anno":"2019", "name":"CSP 2 - Inverno 2018-2019", "url":"https://t
 tornei[206]={"anno":"2019", "name":"CSP 2 - Inverno 2018-2019", "url":"https://teamitaliadoc.github.io/campionatoSociale2019I/index.html", "categoria":"U1700", "tipo":"C", "primi":["Implacabile"], "secondi":["pantheon-67"], "terzi":["ytoong"]};
 tornei[207]={"anno":"2019", "name":"CSP 2 - Inverno 2018-2019", "url":"https://teamitaliadoc.github.io/campionatoSociale2019I/index.html", "categoria":"U1500", "tipo":"C", "primi":["Tulpicanistan"], "secondi":["kmoreteam"], "terzi":["cavaliereyedi"]};
 tornei[208]={"anno":"2019", "name":"CSP 2 - Inverno 2018-2019", "url":"https://teamitaliadoc.github.io/campionatoSociale2019I/index.html", "categoria":"U1300", "tipo":"C", "primi":["KcA550"], "secondi":["NAR14"], "terzi":["thejoker2000"]};
-tornei[209]={"anno":"2019", "name":">Torneo di Carnevale - Fast pla", "url":"https://www.chess.com/it/clubs/forum/view/torneo-di-carnevale", "categoria":"Open", "tipo":"A", "primi":["Sandokann"], "secondi":[], "terzi":["Giammi99"]};
-tornei[210]={"anno":"2019", "name":">Torneo di Carnevale - Fast pla", "url":"https://www.chess.com/it/clubs/forum/view/torneo-di-carnevale", "categoria":"U1600", "tipo":"C", "primi":["Napoli67"], "secondi":["88arf"], "terzi":["Sandro2116"]};
+tornei[209]={"anno":"2019", "name":"Torneo di Carnevale", "url":"https://www.chess.com/it/clubs/forum/view/torneo-di-carnevale", "categoria":"Open", "tipo":"A", "primi":["Sandokann"], "secondi":[], "terzi":["Giammi99"]};
+tornei[210]={"anno":"2019", "name":"Torneo di Carnevale", "url":"https://www.chess.com/it/clubs/forum/view/torneo-di-carnevale", "categoria":"U1600", "tipo":"C", "primi":["Napoli67"], "secondi":["88arf"], "terzi":["Sandro2116"]};
 tornei[211]={"anno":"2018", "name":"Migliore giocatore incontri giornalieri", "url":"https://www.chess.com/club/leaderboard/team-italia-doc", "categoria":"Open", "tipo":"A", "primi":["Dag_Stinner"], "secondi":["DirkFlasche"], "terzi":["deffo2506"]};
 tornei[212]={"anno":"2018", "name":"CSP 1 - Estate 2018", "url":"https://teamitaliadoc.github.io/campionatoSociale2018/index.html", "categoria":"Open", "tipo":"A", "primi":["saurosol"], "secondi":["Implacabile"], "terzi":["Dag_Stinner"]};
 tornei[213]={"anno":"2018", "name":"CSP 1 - Estate 2018", "url":"https://teamitaliadoc.github.io/campionatoSociale2018/index.html", "categoria":"U1600", "tipo":"C", "primi":["Implacabile"], "secondi":["paulbuhl"], "terzi":["88arf"]};
@@ -155,7 +157,42 @@ function getAvatarUrl(url)
         }
     }).error(function(jqXhr, textStatus, error) {
         //è andato in errore ricarico i dati
-        getAvatarUrl(this.url);    
+        //  Lo restituisce anche se esiste.
+        //     ricerco l'avatar per massimo 5 volte
+        var username = this.url.substring(33);
+        console.log(username);            
+        if ((jqXhr.responseText) && (jqXhr.responseText.indexOf('not found') > 0 || giocatori[username].nGetAvatar > 5)) 
+        {
+            //Se non trovato imposto avatar di default 
+            //  Ha chiuso l'account o cambiato nome
+            giocatori[username].avatar = "https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg";
+            giocatori[username].displayName = username;
+
+            //Se non ho caricato tuti gli avatar esengo ancora la funzione
+            for (var username in giocatori) {
+                if (! giocatori[username].avatar) {
+                    return;
+                }
+            }
+  
+            //Finito calcolo. Scrivo i risultati 
+            //   Controllo se è già partita la fase di scrittura
+            //      se arrivano contemporaneamente più caricamenti potrebbe succedere
+            if (! getEloRun)
+            {
+                getEloRun = true;
+                //Stampo medagliere 
+                stampaMedagliere('A');
+                stampaMedagliere('C');
+
+                //Stampo hall of fame
+                stampaMedaglireHoF();
+
+            }               
+        } else {
+            giocatori[username].nGetAvatar ++;
+            getAvatarUrl(this.url);    
+        }
         //Per evitare problemi se il giocatore è non esiste,
         //  se va in errore carico l'avatar di default
         //Tolto se il giocatore va in errore bisogna correggere anche stat
@@ -182,6 +219,7 @@ function creaGiocatore(apiUsername) {
     giocatori[username].bronzoC = 0;
     giocatori[username].punti = 0;
     giocatori[username].posizione = 0;
+    giocatori[username].nGetAvatar = 0;
 }
 
 function stampaMedagliere(tipo) {
@@ -292,8 +330,6 @@ function stampaMedaglireHoF() {
         riga += '</tbody></table> </td>';
         //Chiudo riga
         riga += '</tr>';
-
-        console.log(riga);
 
     //stampo
         $("#hall").append(riga);        
