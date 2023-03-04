@@ -2,6 +2,7 @@
 var giocatori = [];
 
 var tornei = [];
+tornei[172]={"anno":"2023", "name":"Scacchi d'inverno", "url":"https://www.chess.com/clubs/forum/view/scacchi-dinverno-22-23-classifiche-e-statistiche", "categoria":"Squadra", "tipo":"A", "primi":["protoscacchista"], "secondi":["timtheenchanter97"], "terzi":["ziopolvere"]};
 tornei[173]={"anno":"2022", "name":"Campionato sociale a squadre", "url":"https://www.chess.com/it/news/view/campionato-sociale-a-squadre-2021-22", "categoria":"Squadra", "tipo":"A", "primi":["cherokee751","giosibo","leffelover","paolobarolo","reflex56","timtheenchanter97","andrea71ra","clafa","el-pinto","ender_vii","ionutsilviu"], "secondi":["fcostanza","briga69","roundrob1n","spaghetti_carbonara","davideger","acolapi","tarlato","southitaly","rothmoni","frankieI","revruckus","vittoriagiuseppe"], "terzi":["dirkflasche","juanD89","maehard","giorgio_mi","carnea7","gfiorito85","tommasofiore1978","franciomax","tulpicanistan"]};
 tornei[174]={"anno":"2022", "name":"Campionato sociale a squadre", "url":"https://www.chess.com/it/news/view/campionato-sociale-a-squadre-2021-22", "categoria":"Migliori giocatori", "tipo":"A", "primi":["fcostanza"], "secondi":["Briga69"], "terzi":["RoundRob1n"]};
 tornei[175]={"anno":"2022", "name":"1° Trofeo di Primavera", "url":"https://www.chess.com/it/announcements/view/1deg-trofeo-di-primavera", "categoria":"Open", "tipo":"A", "primi":["maehard"], "secondi":["ionutsilviu"], "terzi":["stefanomondi"]};
